@@ -427,6 +427,200 @@ def general():
         else:
            print("\nCongratulations !! You completed all the questions!!")
            display()
+def technology():
+ print('\nLEVEL 1!!')
+ print('\nQUIZ :1')
+ print("OS computer abbreviation usually means ?")
+ print(" A.Order of Significance \n   B.	Open Software \n C.	Operating System \n D.	Optical Sensor")
+        
+ ans=input("Enter your answer:").lower()
+ if ans == 'c.Operating System' or ans == 'c' or ans == 'Operating System' or ans == 'c.Operating System':	     
+   print("Correct answer!!")
+   score(1,1)
+ else:
+   print("Wrong answer!!")
+   print("correct answer: c.Operating System")
+   score(1,0)
+ print('\nQUIZ :2')
+ print("MOV extension refers usually to what kind of file?")
+ print(" A.	Image file \n B.	Animation/movie file \n C.	Audio file \n D.	MS Office document ")
+ ans=input("Enter your answer with space:").lower()
+ if ans == 'b. Animation/movie file' or ans == 'b' or ans == 'Animation/movie file' or ans == 'b.Animation/movie file' :
+   print("Correct answer!!")
+   score(1,1)
+ else:
+   print("Wrong answer!!")
+   print("correct answer: b.Animation/movie file")
+   score(1,0)
+ print('\nQUIZ :3')
+ print("What is part of a database that holds only one type of information?")
+ print("A.	Report \n B.	Field \n C.	Record \n D.	File")
+ ans=input("Enter your answer with space:").lower()
+ if ans == 'b.Field' or ans == 'b' or ans == 'Field' or ans == 'b. Field' :
+   print("Correct answer!!")
+   score(1,1)
+ else:
+   print("Wrong answer!!")
+   print("correct answer: b. Field")
+   score(1,0)
+ print('\nQUIZ :4')
+ print("Most modern TV's draw power even if turned off. The circuit the power is used in does what function?")
+ print("A.	Sound \n B.	Remote control \n C.	Color balance \n D.	High voltage")
+ ans=input("Enter your answer:").lower()
+ if ans == 'b.Remote control' or ans == 'b' or ans == 'Remote control' or ans == 'b. Remote control' :	     
+   print("Correct answer!!")
+   score(1,1)
+ else:
+   print("Wrong answer!!")
+   print("correct answer: b. Remote control")
+   score(1,0)
+ print('\nQUIZ :5')
+ print("Which is a type of Electrically-Erasable Programmable Read-Only Memory?")
+ print("A.	Flash \n B.	Flange \n C.	Fury \n D.	FRAM")
+ ans=input("Enter your answer:").lower()
+ if ans == 'a. Flash' or ans == 'a' or ans == 'Flash ' or ans == 'a.Flash':	     
+   print("Correct answer!!")
+   score(1,1)
+ else:
+   print("Wrong answer!!")
+   print("correct answer: a.Flash")
+   score(1,0)
+ print("\nDo you want to go next level!!")
+ print("\nEnter 'YES' to go next level or 'NO' to exit:")
+ opt=input("Enter your choice:").lower()
+ if opt == 'yes':
+  print('\nLEVEl 2!!')
+  print('\nQUIZ :1')
+  print("In which decade was the SPICE simulator introduced?")
+  print("A.	1950s \n B.	1960s \n C.	1970s D.	1980s")
+  ans=input("Enter your answer with space:").  lower()
+  if ans == 'c. 1970s' or ans == 'c' or ans == '1970s' or ans == 'c. 1970s' :	     
+   print("Correct answer!!")
+   score(2,1)
+  else:
+   print("Wrong answer!!")
+   print("correct answer: c.1970s")
+   score(2,0)
+  print('\nQUIZ :2')
+  print("	The purpose of choke in tube light is ?")
+  print("A.	To decrease the current \n B.	To increase the current \n C.	To decrease the voltage momentarily \n D.	To increase the voltage momentarily")
+  ans=input("Enter your answer:").  lower()
+  if ans == 'd. To increase the voltage momentarily' or ans == 'd' or ans == 'To increase the voltage momentarily' or ans == 'd. To increase the voltage momentarily':	     
+   print("Correct answer!!")
+   score(2,1)
+  else:
+   print("Wrong answer!!")
+   print("correct answer: d. To increase the voltage momentarily")
+   score(2,0)
+  print('\nQUIZ :3')
+  print("	In the United States the television broadcast standard is...?")
+  print("A.	PAL \n B.	NTSC \n C.	SECAM \n D.	RGB")
+
+  ans=input("Enter your answer with space:").  lower()
+  if ans == 'b. NTSC' or ans == 'b' or ans == 'NTSC' or ans == 'b.NTSC':	     
+   print("Correct answer!!")
+   score(2,1)
+  else:
+   print("Wrong answer!!")
+   print("correct answer: b.NTSC")
+   score(2,0)
+  print('\nQUIZ :4')
+  print(" What do we call a collection of two or more computers that are located within a limited distance of each other and that are connected to each other directly or indirectly?")
+  print("A.	Inernet \n B.	Interanet \n C.	Local Area Network \n D.	Wide Area Network")
+  ans=input("Enter your answer with space:").  lower()
+  if ans == 'c. Local Area Network' or ans == 'c' or ans == 'Local Area Network' or ans == 'c.Local Area Network':  
+   print("Correct answer!!")
+   score(2,1)
+  else:
+   print("Wrong answer!!")
+   print("correct answer: c.Local Area Network")
+   score(2,0)
+  print('\nQUIZ :5')
+  print("Sometimes computers and cache registers in a foodmart are connected to a UPS system. What does UPS mean?")
+  print("A.	United Parcel Service \n B.	Uniform Product Support \n C.	Under Paneling Storage \n D.	Uninterruptable Power Supply")
+
+  ans=input("Enter your answer with space:").  lower()
+  if ans == 'd. Uninterruptable Power Supply' or ans == 'd' or ans == 'Uninterruptable Power Supply' or ans == 'd.Uninterruptable Power Supply':	     
+   print("Correct answer!!")
+   score(2,1)
+  else:
+   print("Wrong answer!!")
+   print("correct answer: d.Uninterruptable Power Supply")
+   score(2,0)
+ else:
+  display()
+  
+
+ global flag
+ if flag ==0:
+  print("\nDo you want to go next level!")
+  print("\nEnter 'YES' to go next level or 'NO' to exit:")
+  opt=input("Enter your choice:").lower()
+  if opt == 'yes':
+   print('\nLEVEl 3!!')
+   print('\nQUIZ :1')
+   print("	Who co-founded Hotmail in 1996 and then sold the company to Microsoft?")
+   print("A.	Shawn Fanning \n B.	Ada Byron Lovelace \n C.	Sabeer Bhatia \n D.	Ray Tomlinson")     
+   ans=input("Enter your answer with space:").  lower()
+   if ans == 'c. Sabeer Bhatia' or ans == 'c' or ans == 'Sabeer Bhatia' or ans == 'c.Sabeer Bhatia ' :     
+    print("Correct answer!!")
+    score(3,1)
+   else:
+    print("Wrong answer!!")
+    print("correct answer: c.Sabeer Bhatia ")
+    score(3,0)
+   print('\nQUIZ :2')
+   print("	'.TMP' extension refers usually to what kind of file?")
+   print("A.	Compressed Archive file\n B.	Image file \n C.	Temporary file \n D.	Audio file  ")
+   ans=input("Enter your answer:").  lower()
+   if ans == 'c. Temporary file' or ans == 'c' or ans == 'Temporary file' or ans == 'c.Temporary file':
+    print("Correct answer!!")
+    score(3,1)
+   else:
+    print("Wrong answer!!")
+    print("correct answer: c.Temporary file ")
+    score(3,0)
+   print('\nQUIZ :3')
+   print("	In the UK, what type of installation requires a fireman's switch?")
+   print("A.	Neon Lighting \n B.	High Pressure Sodium Lighting \n C.	Water Features \n D.	Hotel Rooms")
+   ans=input("Enter your answer with space:").  lower()
+   if ans == 'a. Neon Lighting' or ans == 'a' or ans == 'Neon Lighting' or ans == 'a.Neon Lighting':	     
+    print("Correct answer!!")
+    score(3,1)
+   else:
+    print("Wrong answer!!")
+    print("correct answer: a.Neon Lighting ")
+    score(3,0)
+   print('\nQUIZ :4')
+   print("	Who created Pretty Good Privacy (PGP)?")
+   print("A.	Phil Zimmermann\n B.	Tim Berners-Lee \n C.	Marc Andreessen \n D.	Ken Thompson   ")
+
+   ans=input("Enter your answer with space:").  lower()
+   if ans == 'a. Phil Zimmermann' or ans == 'a' or ans == 'Phil Zimmermann' or ans == 'a.Phil Zimmermann':	     
+    print("Correct answer!!")
+    score(3,1)
+   else:
+    print("Wrong answer!!")
+    print("correct answer: a.Phil Zimmermann ")
+    score(3,0)
+   print('\nQUIZ :5')
+   print("What do we call a network whose elements may be separated by some distance? It usually involves two or more small networks and dedicated high-speed telephone lines.")
+   print("A.	URL (Universal Resource Locator) \n B.	LAN (Local Area Network) \n C.	WAN (Wide Area Network) \n D.	World Wide Web")
+
+   ans=input("Enter your answer with space:").  lower()
+   if ans == 'a.URL (Universal Resource Locator)' or ans == 'a' or ans == 'URL (Universal Resource Locator)' or ans == 'a. URL (Universal Resource Locator)':	     
+    print("Correct answer!!")
+    score(3,1)
+   else:
+    print("Wrong answer!!")
+    print("correct answer: a.Universal Resource Locator ")
+    score(3,0)
+  else:
+   display()
+  print("\nCongratulations !! You completed all the questions!!")
+  display()
+
+
           
 
 
