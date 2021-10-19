@@ -618,9 +618,9 @@ def technology():
   else:
     print("\nCongratulations !! You completed all the questions!!")
     display()
-print(" Welcome to QUIZ MASTER ! ")
-print("press 1 for GENERAL questions \n  press 2 for SPORTS questions \n press 3 for TECHNOLOGY questions")
-print(" Let's start the Quiz!!")
+print("Welcome to QUIZ MASTER ! ")
+print("press 1 for GENERAL questions\npress 2 for SPORTS questions\npress 3 for TECHNOLOGY questions")
+print("Let's start the Quiz!!")
 choice=int(input("Enter your choice:")) 
 if(choice==1):
     general()
