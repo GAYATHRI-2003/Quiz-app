@@ -224,10 +224,12 @@ def sports():
     print("Wrong answer!!")    
     print("The correct answer is: B. Boxing")
     score(3,0)
+    print("Congratulations !! You completed all the questions!!")
+    display()
   else:
-   display()
-  print("Congratulations !! You completed all the questions!!")
-  display()	
+   
+   print("Congratulations !! You completed all the questions!!")
+   display()	
 def general():
         print("\nLEVEL 1!!")
         print("\nQuiz:1")
